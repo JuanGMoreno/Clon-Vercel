@@ -14,17 +14,20 @@ Este proyecto es un **clon funcional de una tienda online** desarrollado como pr
 
 ### Frontend (próximamente)
 - React
-- Tailwind CSS (pendiente)
 
 ## 📁 Estructura del proyecto
+```
 /backend
 ├── controllers
 ├── routes
 ├── models
-├── uploads ← imágenes subidas
-├── utils ← configuración de Multer
+├── uploads         
+├── utils           
 ├── app.js
 └── .env
+
+/frontend (aún sin implementar)
+```
 
 ## 📦 Funcionalidades
 
@@ -35,17 +38,18 @@ Este proyecto es un **clon funcional de una tienda online** desarrollado como pr
 
 ## ⚙️ Cómo ejecutar
 
-### 1. Clona el repositorio
+##. Clona el repositorio
 
 ```bash
 git clone https://github.com/JuanGMoreno/Clon-Vercel.git
 cd Clon-Vercel/backend
 ```
 
-###instalar dependencias
-
+##instalar dependencias
+```bash
 npm install 
-
-###ejecutar el servidor
-
+```
+##ejecutar el servidor
+```bash
 npm run dev
+```
